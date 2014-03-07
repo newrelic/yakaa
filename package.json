@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/othiym23/yakaa"
+    "url": "https://github.com/newrelic/yakaa"
   },
   "keywords": [
     "keep-alive",
@@ -18,10 +18,10 @@
     "client",
     "extraction"
   ],
-  "author": "Forrest L Norvell <ogd@aoaioxysz.net>",
+  "author": "Forrest L Norvell <forrest@newrelic.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/othiym23/yakaa/issues"
+    "url": "https://github.com/newrelic/yakaa/issues"
   },
-  "homepage": "https://github.com/othiym23/yakaa"
+  "homepage": "https://github.com/newrelic/yakaa"
 }
