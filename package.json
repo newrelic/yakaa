@@ -1,6 +1,6 @@
 {
   "name": "yakaa",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Yet Another Keep-Alive Agent",
   "main": "index.js",
   "scripts": {
