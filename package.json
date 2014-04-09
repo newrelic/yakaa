@@ -1,10 +1,10 @@
 {
   "name": "yakaa",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Yet Another Keep-Alive Agent",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/newrelic/yakaa/issues"
   },
-  "homepage": "https://github.com/newrelic/yakaa"
+  "homepage": "https://github.com/newrelic/yakaa",
+  "devDependencies": {
+    "tap": "^0.4.8"
+  }
 }
