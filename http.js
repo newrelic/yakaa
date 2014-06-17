@@ -134,7 +134,7 @@ Agent.defaultMaxSockets = Infinity;
 Agent.prototype.createConnection = net.createConnection;
 
 Agent.prototype.isSocketDestroyed = function(socket) {
-    // Different Node versions
+    // Different Node versions have different names for the property
     return socket.destroyed || socket._destroyed;
 };
 
