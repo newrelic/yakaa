@@ -302,6 +302,11 @@ Agent.prototype.destroy = function() {
   sets.forEach(function(set) {
     Object.keys(set).forEach(function(name) {
       set[name].forEach(function(socket) {
+        // Clear timeouts if they exist.
+        if (socket._yakaa_timeout) {
+          clearTimeout(socket._yakaa_timeout);
+          delete socket._yakaa_timeout;
+        }
         socket.destroy();
       });
     });
