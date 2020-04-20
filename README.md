@@ -1,3 +1,5 @@
+[![Archived header](https://github.com/newrelic/open-source-office/raw/master/examples/categories/images/Archived.png)](https://github.com/newrelic/open-source-office/blob/master/examples/categories/index.md#archived)
+
 ## yakaa: yet another keep-alive agent
 
 This is an extracted copy of Node 0.12's keep-alive Agent implementation with
